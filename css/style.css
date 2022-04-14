@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+@font-face {
+  font-family: B20Sans;
+  src: url("fonts/B20Sans.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body,
+button {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: B20Sans, sans-serif;
+  font-size: 14px;
+  line-height: 1.214285714285714;
+  font-weight: 400;
+  touch-action: pan-x pan-y;
+}
+
+select:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none !important;
+}
+
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*======
+* Вспомогательные классы
+======*/
+.container {
+	max-width: auto;
+	margin: 0 auto;
+}
+
+
+
+/*======
+* Основной код
+======*/ 
+footer {
+	padding: 65px 0 84px 0;
+	width: 100%;
+	background: #242132;
+  color: #FFF;
+  font-size: 17px;
+}
+.footer__section-logo img {
+  margin-bottom: 61px;
+} 
+
+footer h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 35px;
+}
+
+.footer__section-lang ul {
+  line-height: 30px;
+}
+
+.footer__section-lang a {
+  color: #767676;
+}
+
+.footer__section-lang .active a,
+.footer__section-lang a:hover {
+  color: #FFF;
+}
+
+footer p a {
+  color: #CE2636;
+}
+footer p span {
+  vertical-align: top;
+}
+
+.footer__section-contacts img {
+  margin-right: 10px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.footer__section-lang ul li {
+  margin-right: 64px;
+}
+.footer__section-lang ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 300px;
+}
+.copyright {
+  text-align: center;
+}
+
+.footer__section-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__section-contacts h3 {
+  margin-bottom: 18px;
+}
+.footer__section-contacts ul {
+  display: flex;
+}
+
